@@ -19,47 +19,59 @@ function App() {
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="space-y-12">
           <HomeCard
-            title="老家"
-            period="1980 - 2010"
-            description="这是我们家族生活了几代人的老房子。砖木结构的二层楼，院子里种满了各种果树。每到夏天，树荫下总是孩子们玩耍的欢乐天地。虽然条件简陋，但充满了温暖的回忆。"
-            images={[
-              {
-                url: "https://images.unsplash.com/photo-1625244724120-1fd1d34d00f6?auto=format&fit=crop&q=80",
-                description: "老家的正门，古朴的红砖墙诉说着岁月的故事"
-              },
-              {
-                url: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80",
-                description: "充满生机的后院，果树和菜园是儿时的乐园"
-              },
-              {
-                url: "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&q=80",
-                description: "温馨的客厅，是全家人欢聚的地方"
-              }
-            ]}
-            mapUrl="https://images.unsplash.com/photo-1569336415962-a4bd9f69cd83?auto=format&fit=crop&q=80"
-            address="湖南省长沙市岳麓区"
+        title="老家"
+        period="2000 - 现在"
+        description="童年的回忆没有那么让人难堪，但也没有那么温暖。"
+        images={[
+          {
+            url: "../src/image/past/kitchen.jpg",
+            description: "这是我童年的厨房，可以看到炉子和烧火用的木头。"
+          },
+          {
+            url: "../src/image/past/pigsty.jpg",
+            description: "原来的猪圈。"
+          },
+          {
+            url: "../src/image/past/beehive.jpg",
+            description: "这是一个蜂巢，上面还有一个鸟巢，希望里面有鸟，房子比野外更安全。"
+          },
+          {
+            url: "../src/image/past/bedroom.jpg",
+            description: "这是我童年的卧室，曾经在那张桌子上做作业。"
+          }
+        ]}
+        mapUrl="https://uri.amap.com/marker?position=105.94,30.05"
+        address="重庆市铜梁区高楼镇"
           />
 
           <HomeCard
-            title="新居"
-            period="2010 - 现在"
-            description="搬入这套现代化的新房子标志着家庭生活质量的提升。宽敞明亮的空间，完善的配套设施，让生活更加舒适便利。阳台上种植的花草为城市生活增添了一抹绿意。"
-            images={[
-              {
-                url: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80",
-                description: "现代简约风格的外观设计"
-              },
-              {
-                url: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&q=80",
-                description: "明亮通透的客厅，让人心情舒畅"
-              },
-              {
-                url: "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&q=80",
-                description: "生机盎然的阳台花园"
-              }
-            ]}
-            mapUrl="https://images.unsplash.com/photo-1553290322-e4e8da394e45?auto=format&fit=crop&q=80"
-            address="湖南省长沙市天心区"
+        title="新居"
+        period="2024 - 现在"
+        description="这是我父母一生所追求的，一件属于自己的房子。按理说他们有了，但攀比的心永远停不下来。为虚荣而活着，我不置可否。"
+        images={[
+          {
+            url: "../src/image/now/livingroom.jpg",
+            description: "客厅，有种感觉，好像是家。"
+          },
+          {
+            url: "../src/image/now/livingroom2.jpg",
+            description: "客厅，有种感觉，好像是家。"
+          },
+          {
+            url: "../src/image/now/mainbedroom.jpg",
+            description: "相信我，现在还有很重的腻子粉味。"
+          },
+          {
+            url: "../src/image/now/bedroom1.jpg",
+            description: "次卧，看起来很小，也确实不大。"
+          },
+          {
+            url: "../src/image/now/bedroom2.jpg",
+            description: "次卧，卧喔窝我。"
+          }
+        ]}
+        mapUrl="https://uri.amap.com/marker?position=106.08,29.84"
+        address="重庆市铜梁区东城街道"
           />
         </div>
       </main>

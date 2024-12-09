@@ -20,10 +20,11 @@ export function HomeCard({ title, period, description, images, mapUrl, address }
       <div className="grid md:grid-cols-2 gap-4">
         <ImageCarousel images={images} />
         <div className="h-[400px] overflow-hidden">
-          <img
+          <iframe
             src={mapUrl}
-            alt={`Map of ${title}`}
-            className="w-full h-full object-cover"
+            title={`Map of ${title}`}
+            className="w-full h-full border-0"
+            allowFullScreen
           />
         </div>
       </div>
